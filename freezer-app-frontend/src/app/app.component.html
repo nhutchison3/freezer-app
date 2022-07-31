@@ -1,0 +1,10 @@
+<!--<app-freezer-dashboard></app-freezer-dashboard>-->
+<div class="nav-bar">
+  <div>
+    <button mat-raised-button [routerLink]="'item-dashboard'">{{ "Items" | uppercase }}</button>
+  </div>
+  <div>
+    <button mat-raised-button [routerLink]="'category-dashboard'">{{ "Categories" | uppercase }}</button>
+  </div>
+</div>
+<router-outlet></router-outlet>

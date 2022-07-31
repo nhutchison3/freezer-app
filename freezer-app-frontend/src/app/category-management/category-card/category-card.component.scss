@@ -1,0 +1,33 @@
+.item-card-wrapper {
+  width: 80vw;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  max-width: 250px;
+}
+
+.item-card-footer {
+  text-align: right;
+  padding: 0px 10px 10px 0px;
+  font-size: small;
+  color: darkgray;
+}
+
+.item-info {
+  display: flex;
+  padding: 10px 10px;
+}
+
+.item-data {
+  flex-grow: 1;
+
+  .delete-item-data {
+    text-align: right;
+  }
+}
+
+.item-data-header {
+  min-height: 10px;
+  font-size: small;
+  color: darkgray;
+}

@@ -1,0 +1,19 @@
+<div class="item-card-wrapper" (click)="editItem()">
+  <div class="item-info">
+    <div class="item-data">
+      <div class="item-data-header">
+        category
+      </div>
+      {{category.name}}
+    </div>
+
+    <div class="delete-item-data">
+      <div class="item-data-header">
+      </div>
+      <mat-icon (click)="deleteItem($event)">delete</mat-icon>
+    </div>
+  </div>
+</div>
+
+<app-edit-category (notifyParent)="toggleEditMode()" [category]="this.category" *ngIf="getIsEditMode()" class="edit-card">
+</app-edit-category>

@@ -1,0 +1,6 @@
+<div class="dashboard-main">
+  <div class="add-item">
+    <app-add-category (categoryCreated)="refreshTable()"></app-add-category>
+  </div>
+  <app-category-table class="table-child" #categoryTable></app-category-table>
+</div>

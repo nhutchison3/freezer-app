@@ -1,0 +1,22 @@
+<div class="add-item-wrapper">
+  <button *ngIf="!isCreating" mat-raised-button color="primary" (click)="openCreate()">{{ "Add Item" | uppercase }}</button>
+  <div *ngIf="isCreating">
+    <div class="form">
+      <mat-form-field *ngIf="isCreating">
+        <mat-label>Item</mat-label>
+        <input id="name" [formControl]="nameControl" type="text" matInput>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Quantity</mat-label>
+        <input id="quantity" [formControl]="quantityControl" type="number" matInput>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Date</mat-label>
+        <input id="date" [formControl]="dateControl" type="date" matInput>
+      </mat-form-field>
+    </div>
+    <div class="done-button">
+      <button mat-raised-button color="accent" (click)="addItem()">{{"Done" | uppercase}}</button>
+    </div>
+  </div>
+</div>

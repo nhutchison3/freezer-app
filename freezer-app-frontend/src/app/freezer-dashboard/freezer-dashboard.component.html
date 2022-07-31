@@ -1,0 +1,7 @@
+<div class="dashboard-main">
+  <div class="add-item">
+    <app-add-item-component (itemCreated)="refreshTable()"></app-add-item-component>
+  </div>
+  <app-category-selector class="category-selector" (notifyParentOfCategorySelection)="refreshTable()"></app-category-selector>
+  <app-item-table class="table-child" #itemTable></app-item-table>
+</div>

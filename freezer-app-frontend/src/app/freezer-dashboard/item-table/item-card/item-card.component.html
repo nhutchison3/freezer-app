@@ -1,0 +1,32 @@
+<div class="item-card-wrapper" (click)="editItem()">
+  <div class="item-info">
+    <div class="item-data">
+      <div class="item-data-header">
+        item
+      </div>
+      {{itemModel.name}}
+    </div>
+    <div class="item-data">
+      <div class="item-data-header">
+        quantity
+      </div>
+      {{itemModel.quantity}}
+    </div>
+    <div class="delete-item-data">
+      <div class="item-data-header">
+      </div>
+      <mat-icon (click)="deleteItem($event)">delete</mat-icon>
+    </div>
+  </div>
+  <div class="item-card-footer">
+    <div>
+      {{itemModel.date}}
+    </div>
+    <div class="category" *ngIf="hasCategory()">
+      {{ getCategory() }}
+    </div>
+  </div>
+</div>
+
+<app-edit-item-card (notifyParent)="toggleEditMode()" [item]="this.itemModel" *ngIf="getIsEditMode()" class="edit-card">
+</app-edit-item-card>

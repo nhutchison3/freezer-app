@@ -1,0 +1,14 @@
+<div class="add-category-wrapper">
+  <button *ngIf="!isCreating" mat-raised-button color="primary" (click)="openCreate()">{{ "Add Category" | uppercase }}</button>
+  <div *ngIf="isCreating">
+    <div class="form">
+      <mat-form-field *ngIf="isCreating">
+        <mat-label>Category</mat-label>
+        <input id="name" [formControl]="nameControl" type="text" matInput>
+      </mat-form-field>
+    </div>
+    <div class="done-button">
+      <button mat-raised-button color="accent" (click)="addCategory()">{{"Done" | uppercase}}</button>
+    </div>
+  </div>
+</div>

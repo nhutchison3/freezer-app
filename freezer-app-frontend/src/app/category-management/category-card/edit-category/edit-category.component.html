@@ -1,0 +1,9 @@
+<div class="edit-item-wrapper">
+  <div class="form">
+    <mat-form-field>
+      <mat-label>Category</mat-label>
+      <input id="name" [formControl]="nameControl" type="text" matInput>
+    </mat-form-field>
+  </div>
+  <app-update-button class="update-button" (updateEmitter)="updateCategory()"></app-update-button>
+</div>
