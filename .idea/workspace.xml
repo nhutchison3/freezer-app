@@ -5,67 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49287161-b458-40ea-b94d-fa414f846c1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/freezer-app-backend/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-backend/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-backend/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-backend/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-backend/.idea/freezer-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-backend/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-backend/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-backend/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-backend/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-backend/docker.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/category-management/add-category/add-category.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/category-management/add-category/add-category.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/category-management/add-category/add-category.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/category-management/category-card/category-card.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/category-management/category-card/category-card.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/category-management/category-card/category-card.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/category-management/category-management.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/category-management/category-management.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/category-management/category-management.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/category-management/category-table/category-table.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/category-management/category-table/category-table.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/category-management/category-table/category-table.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/category-selector/category-selector.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/category-selector/category-selector.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/category-selector/category-selector.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/models/category-model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/models/update-item-model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/resolvers/categories-resolver.resolver.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/resolvers/categories-resolver.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/services/category-selection.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/services/category.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/services/http-client-base.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-backend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-backend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-backend/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-backend/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-backend/src/freezer-item-category/freezer-item-category.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-backend/src/freezer-item-category/freezer-item-category.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-backend/src/freezer-item-category/freezer-item-category.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-backend/src/freezer-item-category/freezer-item-category.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-backend/src/freezer-item-category/freezer-item-category.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-backend/src/freezer-item-category/freezer-item-category.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-backend/src/freezer-item/freezer-item.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-backend/src/freezer-item/freezer-item.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/freezer-dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/freezer-dashboard.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/freezer-dashboard.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/freezer-dashboard.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/freezer-dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/freezer-dashboard.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/item-card/edit-item-card/item-update-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/item-card/edit-item-card/item-update-card.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/item-card/edit-item-card/item-update-card.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/item-card/edit-item-card/item-update-card.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/item-card/edit-item-card/item-update-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/item-card/edit-item-card/item-update-card.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/item-card/edit-item-card/update-button/update-button.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/item-card/edit-item-card/update-button/update-button.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/item-card/item-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/item-card/item-card.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/item-card/item-card.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/item-card/item-card.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/item-card/item-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/item-card/item-card.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/item-event.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/event.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/item-table.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/freezer-dashboard/item-table/item-table.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/models/item-model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/models/item-model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freezer-app-frontend/src/app/services/item.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/freezer-app-frontend/src/app/services/item.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/freezer-app-backend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -84,23 +26,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/hutch/dev/freezer-app/freezer-app-backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\hutch\\dev\\freezer-app\\freezer-app-backend\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "ts.external.directory.path": "C:\\Users\\hutch\\dev\\freezer-app\\freezer-app-backend\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hutch/dev/freezer-app/freezer-app-backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\hutch\\dev\\freezer-app\\freezer-app-backend\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\hutch\\dev\\freezer-app\\freezer-app-backend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hutch\dev\freezer-app\freezer-app-backend" />
@@ -110,7 +52,7 @@
       <recent name="C:\Users\hutch\dev\freezer-app\freezer-app-backend\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+  <component name="RunManager" selected="Docker.docker-compose.yml.freezer-app-frontend: Compose Deployment">
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -125,6 +67,19 @@
           <option name="services">
             <list>
               <option value="freezer-app-backend" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.freezer-app-frontend: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="freezer-app-frontend" />
             </list>
           </option>
           <option name="sourceFilePath" value="docker-compose.yml" />
@@ -152,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml.freezer-app-frontend: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml.freezer-app-backend: Compose Deployment" />
         <item itemvalue="Docker.freezer-app-backend/Dockerfile" />
@@ -171,6 +127,7 @@
       <workItem from="1657394550752" duration="5513000" />
       <workItem from="1657417728279" duration="4882000" />
       <workItem from="1657423452347" duration="3712000" />
+      <workItem from="1659299201150" duration="1147000" />
     </task>
     <servers />
   </component>
